@@ -34,3 +34,39 @@ Three models will be implemented:
 - Latent Space Projections: `results/plots/latent_space.png`
 
 ## Repository Structure
+
+```
+
+low-variance-delta-vae/
+├── src/                # source code (to be added)
+├── experiments/        # scripts to run benchmarks and generate plots
+├── results/
+│   ├── plots/          # generated plots
+│   └── results.csv     # benchmark data
+├── README.md
+└── requirements.txt
+
+```
+
+## Installation
+
+```
+
+git clone [https://github.com/yourusername/low-variance-delta-vae](https://github.com/yourusername/low-variance-delta-vae)
+cd low-variance-delta-vae
+pip install -r requirements.txt
+
+```
+
+## Reproducing Results
+
+*(To be added once code is implemented)*
+
+Example commands:
+
+```
+
+python experiments/run_benchmarks.py
+python experiments/generate_plots.py
+
+```
