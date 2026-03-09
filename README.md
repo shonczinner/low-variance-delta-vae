@@ -31,8 +31,9 @@ All models are implemented in `src/` and share a common training/benchmarking pi
 
 **Benchmark Table**
 
-![Benchmark Results](results/results_table.png)
 *Final per-sample ELBO, total training time, and average epoch time for each model.*
+
+![Benchmark Results](results/results_table.png)
 
 TBA: tables showing gradient variance for each model at initialization and error compared to estimate from large number of monte carlo samples
 
