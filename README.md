@@ -39,17 +39,20 @@ TBA: tables showing gradient variance for each model at initialization and error
 
 **Plots**
 
-* **ELBO vs Epochs**
+* **ELBO vs Epochs**: Shows per-sample ELBO (loss) for each model over training epochs.
+
   ![ELBO vs Epochs](results/plots/loss.png)
-  Shows per-sample ELBO (loss) for each model over training epochs.
+  
 
-* **ELBO vs Training Time**
+* **ELBO vs Training Time**:  Shows how quickly each model reduces ELBO as a function of cumulative wall-clock time.
+
   ![ELBO vs Time](results/plots/elbo_vs_time.png)
-  Shows how quickly each model reduces ELBO as a function of cumulative wall-clock time.
+ 
 
-* **Latent Space Projections**
+* **Latent Space Projections**: 2D latent representations for the first `latent_plot_samples` inputs. Colors correspond to digit labels.
+
   ![Latent Space](results/plots/latents.png)
-  2D latent representations for the first `latent_plot_samples` inputs. Colors correspond to digit labels.
+
 
 ---
 
